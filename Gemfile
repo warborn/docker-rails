@@ -25,6 +25,7 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'redis', '~> 4.2', '>= 4.2.1'
 gem 'pg', '~> 1.2', '>= 1.2.3'
+gem 'rspec-rails', '~> 4.0', '>= 4.0.1'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
