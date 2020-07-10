@@ -12,9 +12,9 @@ services:
       - .env/development/database
       - .env/development/web
     environment:
-      - WEBPACK_DEV_SERVER_HOST=webpack_dev_server
+      - WEBPACK_DEV_SERVER_HOST=webpack
 
-  webpack_dev_server:
+  webpack:
     build: .
     command: ./bin/webpack-dev-server
     ports:
